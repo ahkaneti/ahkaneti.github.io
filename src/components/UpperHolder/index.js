@@ -90,15 +90,14 @@ export const UpperHolder = ({
 
         <PhotoWrapper place="intro" palette={palette}>
           <img alt="my-pic" src={AHK} />
-          <ShortInfo one palette={palette}>
-            a UI Developer
-          </ShortInfo>
           <ShortInfo two palette={palette}>
-            a Frontend Engineer
+            a Fullstack Engineer
           </ShortInfo>
         </PhotoWrapper>
         <DescHolder>
-          <TitleDesc>Software Engineer remotely, based in Brooklyn</TitleDesc>
+          <TitleDesc>
+            Software Engineer remotely, based in the Bay Area
+          </TitleDesc>
           <LongInfo textPalette={textPalette}>
             A software engineer that strives to create code that is as
             ergonomically induced as possible. My aim, when coding, is to create
