@@ -293,13 +293,6 @@ export const Home = () => {
         >
           <i className="ri-instagram-fill" />
         </a>
-        <a
-          href="https://twitter.com/AaronKaneti"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="ri-twitter-fill" />
-        </a>
       </SocialMediaWrapper>
     </Screen>
   );

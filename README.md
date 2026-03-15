@@ -3,7 +3,7 @@
 ### Localhost
 
 ```sh
-$ git clone https://github.com/ahkaneti/aaronkaneti.com
+$ git clone https://github.com/ahkaneti/ahkaneti.github.io
 $ cd aaronkaneti.com
 $ yarn
 $ yarn start

@@ -154,9 +154,10 @@ export const LongInfo = styled.p`
   margin-bottom: 10px;
 `;
 export const PhotoWrapper = styled.div`
-  z-index: 0;
   position: relative;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   img {
     height: 400px;
     width: 400px;
@@ -172,6 +173,7 @@ export const PhotoWrapper = styled.div`
       background: ${palette.VIBRANT}}
       `
         : ''}
+    ${({ palette }) => ` filter: drop-shadow(0px 1px 20px ${palette.VIBRANT});`}
   }
 `;
 export const ContactButton = styled.button`

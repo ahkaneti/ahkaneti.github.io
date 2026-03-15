@@ -10,9 +10,21 @@ import HarunLogo from './images/projectLogos/HarunLogo.png';
 import MonkLogo from './images/projectLogos/MonkLogo.png';
 import RetrieveLogo from './images/projectLogos/RetrieveAwardsLogo.png';
 import MeetMe from './images/projectLogos/MeetMe.png';
+import GoogleLogo from './images/projectLogos/GoogleLogo.png';
 
 export const PROJECTS = {
   projects: [
+    {
+      name: 'Google',
+      used_technologies:
+        'Java, SQL, Borg, deployment, monitoring and debugging tools',
+      short_description: 'Software Engineer at Google.',
+      github_link: 'https://youtu.be/dQw4w9WgXcQ?si=cEbnSMnmOh6lWZx_',
+      description:
+        'Software Engineer at Google Payments Platform. Worked on creating end to end features for Google Payments including RPCs, visual components, debugging and monitoring of payment accounts related information.',
+      logo: GoogleLogo,
+      color: '#0f91c5',
+    },
     {
       name: "Monk Medical's website",
       used_technologies: 'React.js',

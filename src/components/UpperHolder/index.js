@@ -118,7 +118,6 @@ export const UpperHolder = ({
           </Copied>
         </DescHolder>
       </PhotoNameWrapper>
-      <h2>open to new positions</h2>
       <ActionHolder>
         <i className="ri-arrow-down-line" onClick={onBackClick} />
         <ContactButton

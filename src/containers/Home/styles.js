@@ -39,6 +39,7 @@ export const ProjectHolder = styled.div`
   width: 100%;
   position: relative;
   overflow: hidden;
+  padding: 10px 0;
   :nth-child(1n) {
     margin: 0px 10px;
   }
@@ -57,6 +58,7 @@ export const ProjectCarousel = styled.div`
     margin-top: 10px;
   }
   z-index: 1;
+  padding-bottom: 10px;
 `;
 export const ArrowWrapper = styled.div`
   display: flex;
@@ -124,7 +126,6 @@ export const SkillSection = styled.div`
 
 export const SkillWrapper = styled.div`
   justify-content: center;
-  height: 25vh;
   display: flex;
   margin: 5vh 0;
   flex-direction: column;
